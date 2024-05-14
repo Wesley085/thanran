@@ -25,7 +25,7 @@
                     <tr>
                         <th>Ordem</th>
                         <th>Sala</th>
-                        <th>Ações</th>
+                        <th>Ações</th><i></i>
                     </tr>
                 </thead>
                 <tbody>
@@ -43,6 +43,7 @@
             </table>
         </section>
         <a class="btn btn-success" href="../back/cadastrar.php">Cadastrar Turma</a>
+        <a class="btn btn-warning text-light" href="logout.php">Sair</a>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

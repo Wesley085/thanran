@@ -67,9 +67,10 @@ section
   height: 100%;
 }
 
-nav{
+section nav{
   min-width: 100%;
   display: flex;
+  margin-top: 1rem;
 }
 .column {
   display: flex;
@@ -92,7 +93,7 @@ nav{
   font-weight: 300;
   border-radius: 6px;
   border: 2px solid var(--main-color);
-  transition: all 0.3s ease;
+  transition: all ;
 
 }
 
@@ -120,7 +121,7 @@ nav{
 {
   color: var(--site-color);
   background: var(--main-color);
-  border: 2px solid;
+  border: 2px solid var(--main-color);
 }
 
 .card 
